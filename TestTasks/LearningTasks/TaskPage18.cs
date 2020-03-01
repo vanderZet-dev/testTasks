@@ -10,7 +10,7 @@ namespace TestTasks.LearningTasks
     {
         public TaskPage18()
         {
-            ConsoleTool.WriteLineConsoleGreenMessage("Задача про явное/неявное преобразование. Собсвтенно реализация в классе Person. Демонстрация ниже. Создаем из строки класс - сделал явном виде. Выводим в консоль через неявное преобразование. ");
+            ConsoleTool.WriteLineConsoleGreenMessage("Задача про явное/неявное преобразование. Собсвтенно реализация в классе Person. Демонстрация ниже. Создаем из строки класс - сделал в явном виде. Выводим в консоль через неявное преобразование. ");
             Person person = (Person)"Иванов Иван";
             Console.WriteLine(person);
             ConsoleTool.WriteLineConsoleGreenMessage("Делаем сравнение через оператор ==");

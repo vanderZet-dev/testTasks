@@ -11,12 +11,16 @@ namespace TestTasks.LearningTasks
     public class TaskPage63_2_Alter
     {
         private CustomParralelStack customParralelStack;
-        
-        CancellationTokenSource _cancelTokenSource;
-        CancellationToken _token;
+
+        private CancellationTokenSource _cancelTokenSource;
+        private CancellationToken _token;
+
+        private int procCount;
 
         public TaskPage63_2_Alter()
         {
+            procCount = Environment.ProcessorCount;
+
             customParralelStack = new CustomParralelStack();
 
             while (true)
@@ -28,8 +32,6 @@ namespace TestTasks.LearningTasks
                 ConsoleTool.WriteLineConsoleGreenMessage("5 - очистить очередь.");
                 ConsoleTool.WriteLineConsoleGreenMessage("Любая другая клавиша - завершение работы.");
 
-
-
                 var cki = Console.ReadKey();
                 Console.WriteLine();
                 switch (cki.KeyChar.ToString())
@@ -40,7 +42,7 @@ namespace TestTasks.LearningTasks
                     case "2":
                             _cancelTokenSource = new CancellationTokenSource();
                             _token = _cancelTokenSource.Token;
-                            Task.Factory.StartNew(() => customParralelStack.Start(4, _cancelTokenSource));
+                            Task.Factory.StartNew(() => customParralelStack.Start(procCount, _cancelTokenSource));
                         break;
                     case "3":
                         Task.Factory.StartNew(() => customParralelStack.Stop());

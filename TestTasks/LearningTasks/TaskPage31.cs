@@ -13,8 +13,11 @@ namespace TestTasks.LearningTasks
 
         public void ConsoleTestStringComparer()
         {
+            ConsoleTool.WriteLineConsoleGreenMessage("Тестируем работу оператора == для строки.");
+
             string a = "Строка 1";
             string b = "Строка 1";
+            Console.WriteLine($"{a} == {b}");
 
             Console.WriteLine((a==b).ToString());
         }

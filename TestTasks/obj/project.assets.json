@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS\\projects\\TestTasks\\TestTasks\\TestTasks.csproj",
+      "projectUniqueName": "D:\\VS\\projects\\TestTasksRepo\\testTasks\\TestTasks\\TestTasks.csproj",
       "projectName": "TestTasks",
-      "projectPath": "D:\\VS\\projects\\TestTasks\\TestTasks\\TestTasks.csproj",
+      "projectPath": "D:\\VS\\projects\\TestTasksRepo\\testTasks\\TestTasks\\TestTasks.csproj",
       "packagesPath": "C:\\Users\\meneger\\.nuget\\packages\\",
-      "outputPath": "D:\\VS\\projects\\TestTasks\\TestTasks\\obj\\",
+      "outputPath": "D:\\VS\\projects\\TestTasksRepo\\testTasks\\TestTasks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

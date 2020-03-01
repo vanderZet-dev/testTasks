@@ -9,3 +9,14 @@ D:\VS\projects\TestTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.AssemblyInf
 D:\VS\projects\TestTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.dll
 D:\VS\projects\TestTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.pdb
 D:\VS\projects\TestTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.csprojAssemblyReference.cache
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\bin\Debug\netcoreapp2.1\TestTasks.deps.json
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\bin\Debug\netcoreapp2.1\TestTasks.runtimeconfig.json
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\bin\Debug\netcoreapp2.1\TestTasks.runtimeconfig.dev.json
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\bin\Debug\netcoreapp2.1\TestTasks.dll
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\bin\Debug\netcoreapp2.1\TestTasks.pdb
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.csprojAssemblyReference.cache
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.csproj.CoreCompileInputs.cache
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.AssemblyInfoInputs.cache
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.AssemblyInfo.cs
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.dll
+D:\VS\projects\TestTasksRepo\testTasks\TestTasks\obj\Debug\netcoreapp2.1\TestTasks.pdb

@@ -29,8 +29,6 @@ namespace TestTasks.LearningTasks
             workCatalog.Add(person5, "Библиотека");
 
             ConcurrentReadAndWriteToListTest();
-
-
         }
 
         private string FindPersonWorkPlaceByPersonData(string lastName, string firstName, string paterName, string passport, string birthPlace)
